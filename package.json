@@ -1,0 +1,23 @@
+{
+  "name": "nodeapi1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.2"
+  }
+}
